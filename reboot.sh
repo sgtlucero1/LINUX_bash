@@ -5,9 +5,9 @@ sshpass -p 'CHuzwuza11??' ssh -o "StrictHostKeyChecking no" -o ConnectTimeout=5 
 
 EC=`echo $?`
 if [[ $EC == "0" ]];then
-MSG="Login OK"
+MSG="Reboot Successful"
 else
-MSG="Login Failed"
+MSG="Reboot Failed"
 fi
 echo -e "Checking $H,$i,ec=$EC,$MSG"
 done
