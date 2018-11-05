@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in `cat css | awk '{print $1}'`
+#for i in `cat css | awk '{print $1}'`
 for i in `cat list | awk '{print $2}'`
 do
 
